@@ -49,6 +49,8 @@ public class SambaProviderApplication extends Application {
   public void onCreate() {
     super.onCreate();
 
+    System.loadLibrary("samba_client");
+
     init(this);
   }
 
