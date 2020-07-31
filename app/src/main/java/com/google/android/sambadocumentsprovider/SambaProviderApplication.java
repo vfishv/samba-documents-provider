@@ -54,6 +54,13 @@ public class SambaProviderApplication extends Application {
     init(this);
   }
 
+/*
+  @Override
+  protected void attachBaseContext(Context base) {
+    System.loadLibrary("samba_client");
+    super.attachBaseContext(base);
+  }
+*/
   private void initialize(Context context) {
     if (mSambaClient != null) {
       // Already initialized.
