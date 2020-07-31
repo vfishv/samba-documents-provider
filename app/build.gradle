@@ -46,6 +46,11 @@ android {
             path "CMakeLists.txt"
         }
     }
+
+    packagingOptions {
+        pickFirst "**/libc++_shared.so"
+        pickFirst "**/libsmbclient.so"
+    }
 }
 
 dependencies {
