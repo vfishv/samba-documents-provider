@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.google.android.sambadocumentsprovider"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 29
         versionCode 102
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
