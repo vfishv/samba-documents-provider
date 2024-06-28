@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 35
     //buildToolsVersion '35.0.0'
+    ndkVersion "15.2.4203891"
+    //ndkVersion "16.1.4479499"
     namespace "com.google.android.sambadocumentsprovider"
     buildFeatures {
         buildConfig = true
@@ -48,6 +50,7 @@ android {
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
+            //version "3.6.0"
         }
     }
 
@@ -62,7 +65,7 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    testImplementation 'junit:junit:4.13'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    testImplementation 'junit:junit:4.13.2'
 }
