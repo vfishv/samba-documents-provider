@@ -1,8 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.2'
+    compileSdkVersion 35
+    //buildToolsVersion '35.0.0'
+    namespace "com.google.android.sambadocumentsprovider"
+    buildFeatures {
+        buildConfig = true
+    }
     defaultConfig {
         applicationId "com.google.android.sambadocumentsprovider"
         minSdkVersion 23
@@ -58,7 +62,7 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
     testImplementation 'junit:junit:4.13'
 }
