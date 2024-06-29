@@ -3,11 +3,11 @@
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
-.idea/*
+/.idea/*
+.cxx
 .DS_Store
 /build
 /captures
 .externalNativeBuild
-
-
-.cxx
+app/src/main/jniLibs/**
+app/src/main/cpp/samba_includes/**
