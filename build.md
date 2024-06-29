@@ -94,3 +94,14 @@ ndk {
 
 官方网站
 http://jcifs.samba.org/
+
+
+==============================================================
+
+https://en.wikipedia.org/wiki/History_of_Python
+
+python 3.8.19
+
+only build on Windows？
+
+
