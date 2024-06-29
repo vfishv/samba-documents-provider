@@ -12,6 +12,7 @@ http://blog.csdn.net/meiguanggan/article/details/51443679
 提示操作步骤:
 
 1.下载Samba 4.5.1源码，与samba-documents-provider-master并列
+https://download.samba.org/pub/samba/stable/samba-4.5.1.tar.gz
 
 2.切换道samba-4.5.1源码目录
 
