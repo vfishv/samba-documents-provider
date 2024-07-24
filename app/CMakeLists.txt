@@ -49,3 +49,4 @@ set_target_properties(libsmbclient
                       ${libfolder}/libsmbclient.so)
 
 target_link_libraries(samba_client ${log-lib} libsmbclient)
+target_link_options(samba_client PRIVATE "-Wl,-z,max-page-size=16384")
