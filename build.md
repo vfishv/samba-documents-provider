@@ -106,4 +106,4 @@ python 3.8.19
 
 only build on Windows？
 
-
+2024-7-24 python 3.12.4 build pass on Windows 10
