@@ -28,6 +28,7 @@ git apply ../samba-documents-provider-master/sambapatch.diff
 
 5.下载NDK android-ndk-r15c-windows-x86_64.zip
 
+rename to 15.2.4203891
 https://github.com/android/ndk/wiki/Unsupported-Downloads
 http://blog.csdn.net/gyh198/article/details/75036686
 
