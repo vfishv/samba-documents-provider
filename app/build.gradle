@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId "com.google.android.sambadocumentsprovider"
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 33
         versionCode 102
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -24,6 +24,11 @@ android {
             abiFilters 'x86_64'
         }
     }
+    /*
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+    */
     buildTypes {
         release {
             minifyEnabled false

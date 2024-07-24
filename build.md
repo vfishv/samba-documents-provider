@@ -26,8 +26,9 @@ git init
 
 git apply ../samba-documents-provider-master/sambapatch.diff
 
-5.下载NDK r15b
+5.下载NDK android-ndk-r15c-windows-x86_64.zip
 
+https://github.com/android/ndk/wiki/Unsupported-Downloads
 http://blog.csdn.net/gyh198/article/details/75036686
 
 6.切换到samba-4.5.1目录，对configure.sh进行修改(tips :set nu显示行号)
